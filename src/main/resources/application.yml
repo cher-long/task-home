@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: service-task-home
+  data:
+    mongodb:
+     database: tasks_db
+     host: host.docker.internal
+     port: 27017
+server:
+  port: 8081
